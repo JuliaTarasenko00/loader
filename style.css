@@ -1,0 +1,86 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center center;
+}
+
+.container {
+  height: 350px;
+  width: 350px;
+  position: relative;
+}
+
+.container > div:nth-child(1) {
+  height: 75px;
+  width: 75px;
+  background-color: #2be1e2ba;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 135px;
+  z-index: 10;
+  animation: one 2s infinite;
+}
+
+@keyframes one {
+  50% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+.container > div:nth-child(2) {
+  height: 75px;
+  width: 75px;
+  background-color: #d54efbb8;
+  border-radius: 50%;
+  position: absolute;
+  top: 140px;
+  right: 110px;
+  z-index: 20;
+  animation: two 2s infinite;
+}
+
+@keyframes two {
+  50% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(7px);
+  }
+}
+
+.icon {
+  height: 70px;
+  width: 70px;
+  fill: white;
+  position: absolute;
+  top: 130px;
+  right: 130px;
+  z-index: 50;
+}
+
+.container > div:nth-child(4) {
+  height: 75px;
+  width: 75px;
+  background-color: #ff80b4ba;
+  border-radius: 50%;
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: 30;
+  animation: four 2s infinite;
+}
+
+@keyframes four {
+  50% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(-7px);
+  }
+}
