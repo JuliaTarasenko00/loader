@@ -13,13 +13,13 @@ body {
 }
 
 .container > div:nth-child(1) {
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
   background-color: #2be1e2ba;
   border-radius: 50%;
   position: absolute;
   top: 100px;
-  left: 135px;
+  left: 150px;
   z-index: 10;
   animation: one 2s infinite;
 }
@@ -29,58 +29,65 @@ body {
     transform: translateY(-5px);
   }
   50% {
-    transform: translateY(-7px);
+    transform: translateY(-5px);
   }
 }
 
 .container > div:nth-child(2) {
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
   background-color: #d54efbb8;
   border-radius: 50%;
   position: absolute;
-  top: 140px;
-  right: 110px;
+  top: 125px;
+  right: 130px;
   z-index: 20;
   animation: two 2s infinite;
 }
 
 @keyframes two {
   50% {
-    transform: translateX(5px);
+    transform: translateX(3px);
   }
   50% {
-    transform: translateX(7px);
+    transform: translateX(3px);
   }
 }
 
 .icon {
-  height: 70px;
-  width: 70px;
+  height: 40px;
+  width: 40px;
   fill: white;
   position: absolute;
-  top: 130px;
-  right: 130px;
+  top: 124px;
+  right: 150px;
   z-index: 50;
+  border-radius: 5px;
 }
 
 .container > div:nth-child(4) {
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
   background-color: #ff80b4ba;
   border-radius: 50%;
   position: absolute;
-  top: 140px;
-  left: 110px;
+  top: 125px;
+  left: 130px;
   z-index: 30;
   animation: four 2s infinite;
 }
 
 @keyframes four {
   50% {
-    transform: translateX(-5px);
+    transform: translateX(-3px);
   }
   50% {
-    transform: translateX(-7px);
+    transform: translateX(-3px);
   }
+}
+
+.title {
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
 }
