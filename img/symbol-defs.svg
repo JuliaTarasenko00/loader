@@ -1,12 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
-<defs>
-<filter id="round" x="-50%" width="200%" y="-50%" height="200%">
-<feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
-<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="round" />
-<feComposite in="SourceGraphic" in2="round" operator="atop" />
-</filter>
-</defs>
-<symbol id="icon-play3" viewBox="0 0 32 32">
-<path d="M6 4l20 12-20 12z" filter="url(#round)" ></path>
+<symbol id="icon-img" viewBox="0 0 32 32">
+<path d="M2.617 0.839c-0.981 0.597-0.91-0.583-0.91 15.175 0 14.222 0 14.236 0.299 14.62 0.156 0.199 0.484 0.469 0.697 0.583 0.939 0.484 1.095 0.412 7.666-3.186 3.413-1.863 8.576-4.693 11.463-6.272 9.131-4.992 8.604-4.636 8.604-5.774 0-1.18 1.735-0.142-22.67-13.483-3.854-2.105-4.238-2.219-5.148-1.664z"></path>
 </symbol>
 </svg>
